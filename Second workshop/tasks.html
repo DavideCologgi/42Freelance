@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Tasks</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="tasks.css">
+    </head>
+    <body>
+        <form id="form">
+            <h3 for="note" class="title">Insert the text of your note:</h3><br>
+            <input type="text" id="note" required minlength="3"><br>
+            <button type="submit" id="submit">Add Note</button>
+        </form>
+        <button id="fetchTasks">Fetch Tasks</button>
+        <div class="list-container">
+            <h3 for="list-title" class="title">Tasks:</h3>
+            <ul id="list"></ul>
+        </div>
+    </body>
+    <script src="tasks.js"></script>
+</html>

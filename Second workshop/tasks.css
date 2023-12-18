@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+    .title {
+        color: red;
+    }
+
+    input {
+        margin-top: 20px;
+    }
+
+    #submit {
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+#fetchTasks {
+    margin-top: 30px;
+}
+
+.list-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+    li {
+        justify-content: space-evenly;
+        padding: 10px;
+    }
